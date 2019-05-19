@@ -1,0 +1,134 @@
+@font-face {
+    font-family: zag; /* Имя шрифта */
+    src: url(../shrift/zag.ttf); /* Путь к файлу со шрифтом */
+   }
+ @font-face {
+ font-family: naz; /* Имя шрифта */
+    src: url(../shrift/naz.otf); /* Путь к файлу со шрифтом */
+  }
+body{
+  background-image: url("../photo/fon.jpg");
+}
+.textzag{
+  text-align:center; 
+  color: black;
+  position: relative;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    max-width: 70%;
+    top: 2%;
+    font-size: 2vw;
+    font-weight: 900;
+    font-family: zag;
+}
+.container {
+  position: relative;
+  margin:0 auto;
+  width: 50%;
+}
+
+.image {
+  display: block;
+margin:0 auto;
+  text-align:center;
+  width: 80%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  margin:0 auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 80%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color:black;
+}
+
+.container:hover .overlay {
+  opacity: 0.9;
+}
+
+.text {
+  color: white;
+  position: relative;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    max-width: 90%;
+    font-size: 2vw;
+    font-weight: 900;
+  font-family: naz;
+}
+
+
+.containerzag {
+  position: absolute;
+  margin: 1%;
+  width: auto;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 1vw 1vw;
+  text-decoration: none;
+  font-size: 1vw;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+.dropbtn {
+  background-color: #333;
+  color: white;
+  padding: 1vw 1vw;
+  font-size: 1vw;
+  border: none;
+}
+
+.dropdown {
+  position: absolute;
+  display: inline-block;
+  margin: 1%;
+  top:4vw;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ddd;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 1vw 1vw;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;
+color:black;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #ddd;
+color:black;}

@@ -1,0 +1,159 @@
+@font-face {
+    font-family: zag; /* Имя шрифта */
+    src: url(../shrift/zag.ttf); /* Путь к файлу со шрифтом */
+   }
+ @font-face {
+ font-family: naz; /* Имя шрифта */
+    src: url(../shrift/naz.otf); /* Путь к файлу со шрифтом */
+}
+.inter {
+ 
+  background-image: url("../photo/inter.jpg");
+
+
+  min-height: 50vw; 
+
+ 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  position: absolute;
+  margin: 1%;
+  width: auto;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 1vw 1vw;
+  text-decoration: none;
+  font-size: 1vw;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+.dropbtn {
+  background-color: #333;
+  color: white;
+  padding: 1vw 1vw;
+  font-size: 1vw;
+  border: none;
+}
+
+.dropdown {
+  position: absolute;
+  display: inline-block;
+  margin: 1%;
+  top:4vw;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ddd;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 1vw 1vw;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;
+color:black;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #ddd;
+color:black;}
+
+
+.unicorn{
+	text-decoration: none;
+	overflow: hidden;
+	text-align:left; 
+	color: black;
+	position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    max-width: 98%;
+    top: 3%;
+    font-size: 15px;
+    font-weight: 900;
+}
+.text{
+	text-align:center; 
+	color: black;
+	position: relative;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    max-width: 70%;
+    top: 5%;
+    font-size: 3vw;
+    font-weight: 900;
+    font-family: zag;
+}
+.zagtext{
+	text-align:center; 
+	color: black;
+	position:relative ;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    max-width: 70%;
+    white-space: nowrap;
+    line-height: 7em;
+    font-size: 5vw;
+    font-weight: 900;
+    font-family: naz;
+}
+.zagtext a:hover {color:grey;}
+.zagtext a {
+	text-decoration: none;
+	color:black;}
+.textops{
+	color: black;
+	position: relative;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    max-width: 90%;
+    font-size: 2vw;
+    font-weight: 900;
+    font-style: italic;
+}
+.tovar {
+  
+  background-image: url("../photo/predm.jpg");
+
+  
+  min-height: 30vw; 
+
+  
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
